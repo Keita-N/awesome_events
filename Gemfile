@@ -38,3 +38,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'omniauth', '~> 1.2.1'
+gem 'omniauth-twitter', '~> 1.0.1'
+
+gem 'better_errors', group: [:development, :test]
+gem 'binding_of_caller', group: [:development, :test]
+
