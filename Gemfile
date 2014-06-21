@@ -43,4 +43,8 @@ gem 'omniauth-twitter', '~> 1.0.1'
 
 gem 'better_errors', group: [:development, :test]
 gem 'binding_of_caller', group: [:development, :test]
+gem 'rails-erd', github: 'paulwittmann/rails-erd', branch:'mavericks', group: [:development, :test]
+gem 'hirb', group: [:development, :test]
+gem 'hirb-unicode', group: [:development, :test]
+gem "bullet", :group => "development"
 
