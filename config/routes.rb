@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'welcome#index'
+  resources :events
+
+  root to: 'events#index'
   get 'auth/:provider/callback' => 'sessions#create'
   get '/logout' => 'sessions#destroy', as: :logout
   # The priority is based upon order of creation: first created -> highest priority.
