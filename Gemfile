@@ -48,3 +48,6 @@ gem 'hirb', group: [:development, :test]
 gem 'hirb-unicode', group: [:development, :test]
 gem "bullet", :group => "development"
 
+group :production do
+	gem 'unicorn'
+end
